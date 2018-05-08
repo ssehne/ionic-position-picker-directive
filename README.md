@@ -6,11 +6,9 @@ Use `[wf-position-picker]` attribute on any `<button>` element.
 ## Installation
 - Install `npm i @webfactor/ionic-position-picker-directive`.
 - Install `npm i @agm/core`.
-- Add `PositionPickerDirectiveModule` to your Ionic module imports.
 - Add `AgmCoreModule.forRoot({ apiKey: 'Maps-Api-Key'})` to your Ionic module imports
 - Add `GeolocationServiceProvider`to your Ionic providers
-
-- If button don´t react to clickevents add `PositionPickerDirectiveModule` to your Ionic Page module imports.
+- Add `PositionPickerDirectiveModule` to the Ionic Page module imports.
 
 ## I/O
 ```typescript
